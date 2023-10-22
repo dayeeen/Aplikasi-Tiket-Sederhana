@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiket Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>APLIKASI PEMESANAN TIKET TRAVEL</h1>
+    <form>
+        <div class="mb-3">
+          <label for="Nama" class="form-label">Nama:</label>
+          <input type="name" class="form-control" id="Nama" aria-describedby="nameHelp">
+          <div id="nameHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+            <label for="Tujuan" class="form-label">Tujuan:</label>
+            <select id="Tujuan" class="form-select">
+                <option value="Bandung">Bandung</option>
+                <option>Jakarta</option>
+                <option>Surabaya</option>
+                <option>Malang</option>
+                <option>Yogyakarta</option>
+                <option>Denpasar</option>
+                <option>Medan</option>
+                <option>Palembang</option>
+                <option>Padang</option>
+                <option>Manado</option>
+                <option>Makassar</option>
+                <option>Pontianak</option>
+                <option>Banjarmasin</option>
+                <option>Palu</option>
+                <option>Mataram</option>
+                <option>Ambon</option>
+                <option>Jayapura</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="Tanggal" class="form-label">Tanggal:</label>
+            <input type="date" class="form-control" id="Tanggal">
+        </div>
+        <div class="mb-3">
+            <label for="Jumlah" class="form-label">Jumlah:</label>
+            <select id="JumlahTiket" class="form-select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="Harga" class="form-label">Harga:</label>
+            <input type="number" class="form-control" id="Harga">
+        </div>
+        <!-- Member -->
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="Member">
+            <label class="form-check-label" for="Member">Member</label>
+        </div>
+        <!-- Diskon -->
+        <div class="mb-3">
+            <label for="Diskon" class="form-label">Diskon:</label>
+            <input type="number" class="form-control" id="DiskonMember" disabled>
+        </div>
+        <div class="mb-3">
+            <label for="Total" class="form-label">Total:</label>
+            <input type="number" class="form-control" id="Total" disabled>
+        </div>
+        <button type="submit" class="btn btn-primary" id="Submit">Submit</button>
+      </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
