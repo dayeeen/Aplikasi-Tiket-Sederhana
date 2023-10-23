@@ -28,6 +28,7 @@ function hitungTotal() {
     memberInput.addEventListener('click', function () {
         if (memberInput.checked == false) {
             diskonInput.value = 0;
+            totalInput.value = total;
         } else {
             diskonInput.value = total * 0.1; // Ubah diskon menjadi 10%
             totalInput.value = total - diskonInput.value;
