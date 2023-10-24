@@ -9,3 +9,17 @@ body {
     background-color: #f1f1f1;
 }
 
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #000000;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+}
